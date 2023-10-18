@@ -14,7 +14,4 @@ document.getElementById('next').onclick = function(){
   }
   
   //SEE MORE BUTTON FOR ARTICLES SECTION
-  let articleItemButtons = document.querySelectorAll('.article__item .b6');
-  articleItemButtons.forEach(function (button) {
-    button.onclick(window.location.href='./Projects/omnifit/index.html');
-  });
+ 
