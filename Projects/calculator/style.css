@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,148,148,1) 0%, rgba(144,238,144,1) 100%);
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 20px 30px;
+    background: #fff;
+}
+
+.display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    pointer-events: none;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px black solid;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.operator {
+    color: lightcoral;
+}
+
+.operator:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.num:hover {
+    background-color: black;
+    color: white;
+}
+
+.equal {
+    color:lightgreen;
+    font-weight: bold;
+}
+
+.equal:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.buttons button:active {
+    transform: scale(0.99);   
+}
+
+hr {
+    margin: 10px 0px;
+    max-width: 300px;
+    width: 100%;
+}
+
