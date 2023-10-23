@@ -842,3 +842,28 @@ button[type="submit"] {
 }
 
 /*---------END WORK TOGETHER-----------*/
+/*------------SUCCESS---------------*/
+
+.contact-success-container {
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.successPage h1 {
+    font-size: 200px;
+    margin: 5% 0 0 0;
+}
+
+.successPage p {
+    font-size: 25px;
+    margin: 0 0 10% 0;
+}
+
+.successPage a {
+    font-size: 150px;
+}
+/*---------------END SUCCESS---------*/
