@@ -25,12 +25,19 @@
         </div>
         <hr class="horizontal-rule-contact">
         <div class="one-col">
-            <form action="mailto:mjm13680@uga.edu" method="post" class="contact-form">
+            <form action="https://formsubmit.co/m1mandle1@gmail.com" method="POST" class="contact-form">
+                <!--HoneyPot-->
+                <input type="text" name="_honey" style="display: none;">
+                <!--Captcha Diabale-->
+                <input type="hidden" name="_captcha" value="false"> 
+                <!--SucessPage-->
+                <input type="hidden" name="_next" value="https://mmandle.github.io/michaelmandle/success.html">
+
                 <div class="input-control">
-                    <input type="text" required placeholder="YOUR NAME">
-                    <input type="email" required placeholder="YOUR EMAIL">
-                    <input type="text" required placeholder="ENTER SUBJECT">
-                    <textarea name="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                    <input type="text" name="name" required placeholder="YOUR NAME">
+                    <input type="email" name="email"required placeholder="YOUR EMAIL">
+                    <input type="text" name="subject"required placeholder="ENTER SUBJECT">
+                    <textarea name="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
                 </div>
                 <div class="submit-btn">
                     <button type="submit">Submit</button>
