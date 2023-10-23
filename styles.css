@@ -663,9 +663,6 @@ footer a:hover{
 
 .footie-contact {
     background-color: black;
-    margin: 0 50px 0 0;
-    
-    transition: color 0.3s;
     font-size: 20px;
 }
 
