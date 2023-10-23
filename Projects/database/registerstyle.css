@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('tower-in-forest-digital-art-3yzduk4b01ahu06q.jpg') no-repeat;
+    background: url('./tower-in-forest-digital-art-3yzduk4b01ahu06q.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
