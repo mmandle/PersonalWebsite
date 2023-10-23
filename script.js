@@ -1,5 +1,6 @@
 function makeX (x)  {
     x.classList.toggle("change");
+    alert("This function is under construction!");
 };
 
 
