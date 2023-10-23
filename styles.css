@@ -752,3 +752,93 @@ button[type="submit"] {
 }
 
 /*--------END-HORIZONTAL-RULE--------*/
+/*---------WORK TOGETHER--------------*/
+
+.worktogether {
+    padding: 10%;
+    position: relative;
+}
+
+.wtHeader {
+    font-size: 200%;
+}
+
+.divider {
+    margin: 0%;
+}
+
+.gitButton {
+    position: absolute;
+    font-size: 150%;
+    text-decoration: none;
+    border: 1px black solid;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    left: 75%;
+    bottom: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.gitButton:visited {
+    color: black;
+}
+
+.gitButton:hover {
+    background: black;
+    border: 1px white solid;
+    color: white;
+}
+
+.links {
+    padding: 3% 0;
+}
+
+.links a {
+    margin-right: 20px;
+}
+
+.emailLink {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 1%;
+}
+
+.emailLink:visited {
+    color: white;
+}
+
+.emailLink:hover{
+    transition: color 0.3s ease;
+    background: white;
+    color: black;
+}
+
+.phoneLink {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 1%;
+}
+
+.phoneLink:visited {
+    color: white;
+}
+
+.phoneLink:hover{
+    transition: color 0.3s ease;
+    background: white;
+    color: black;
+}
+
+/*---------END WORK TOGETHER-----------*/
